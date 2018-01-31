@@ -1,18 +1,22 @@
-*.log
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
+# Ignore everything in the root...
+/*
 
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
+# ...except these things...
+!.gitignore
+!.gitattributes
+!composer.json
+!gulpfile.js
+!package.json
+!php-codesniffer-ruleset.xml
+!package-lock.json
+!README.md
+!setup.sh
+!/src
+!/build
+!/dist
+!/gulp
+
+# ...but ignore these guys everywhere.
+.sass-cache/
+.DS_Store
 
