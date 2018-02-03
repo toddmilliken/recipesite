@@ -17,3 +17,5 @@
  * @link http://php.net/manual/en/function.require.php
  * @link https://codex.wordpress.org/Function_Reference/get_stylesheet_directory
  */
+
+add_theme_support( 'post-thumbnails' );
